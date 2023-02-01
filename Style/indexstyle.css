@@ -1,0 +1,84 @@
+/* Common CSS start */
+*{
+    font-family: 'EB Garamond';
+}
+.Primary_btn{
+    background: #B68C5A;
+    color: white;
+    border: 0;
+    outline: none;
+    padding: 15px;
+    font-weight: 700;
+}
+
+.MyPadding{
+    padding: 15px;
+}
+.Button_Padding{
+    padding: 15px 35px;
+}
+
+/* Common Css end */
+
+
+
+/* Banner start */
+.Banner{
+    width: 100%;
+    height: 550px;
+    background: url('../Assets/images/banner.png');
+}
+.Inner_Banner{
+    width: 692px;
+    height: 342px;
+}
+/* Banner end */
+
+
+/* The Legal Practice Area Start */
+.card{
+    background: transparent;
+}
+.card_image{
+    width: 71.8px;
+    height: 72.34px;
+    margin: 25px auto;
+}
+.card-text{
+    width: 258px;
+    margin: 0 auto;
+}
+.this_active{
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+    border: 1px solid #E7E7E7;
+}
+/* The Legal Practice Area end */
+
+
+/* Our Clint say start */
+.carousle_img_size{
+    height: 450px;
+    width: 1175px; 
+}
+
+/* Our Clint say end */
+
+
+/* footer start */
+.footer_button {
+    padding: 5px 15px;
+    width: 70px;
+    height: 55px;
+    background-color: #B68C5A;
+}
+/* footer end */
+
+
+/* Media Query start */
+@media only screen and (max-width: 576px) {
+    .footer_button{
+        width: 75%;
+    }
+}
+/* Media Query End */
+
